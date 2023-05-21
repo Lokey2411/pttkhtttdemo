@@ -1,0 +1,98 @@
+.dropdown {
+  margin-top: 16px;
+  list-style-type: none;
+  color: #000;
+  margin-right: 10px;
+  padding: 0;
+  font-size: 1.6 rem;
+}
+
+ul {
+  list-style: none;
+}
+
+#pg1,
+#pg2 {
+  cursor: pointer;
+}
+
+.timkiemnhanvien {
+  position: relative;
+  top: 40px;
+}
+.timkiemnhanvien button {
+  padding: 4px 15px;
+}
+#myInput {
+  margin-bottom: 10px;
+}
+
+.nv {
+  margin-bottom: 10px;
+}
+#myList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  animation: fadein ease 1s;
+}
+#myList li {
+  background: #ff0;
+  margin: 5px;
+  width: 300px;
+  border: 1px solid #000;
+  padding: 4px;
+  text-align: center;
+}
+#myList input {
+  display: block;
+  margin: 0 auto;
+  padding: 1px 50px;
+}
+#myList {
+  margin-bottom: 10px;
+  /* display: none; */
+}
+#myInput {
+  margin-bottom: 50px;
+}
+#myList li {
+  cursor: pointer;
+}
+#myList li input {
+  display: none;
+}
+.pg-normal {
+  cursor: pointer;
+}
+#myList input ::placeholder {
+  text-transform: capitalize;
+  margin-left: -20px;
+}
+#myList input:focus {
+  outline: none;
+}
+.hide {
+  display: none;
+}
+@keyframes fadein {
+  from {
+    opacity: 0.3;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.timkiemnhanvien {
+  margin-bottom: 30px;
+}
+
+th {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20px !important;
+  vertical-align: middle !important;
+}
