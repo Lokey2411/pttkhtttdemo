@@ -169,4 +169,12 @@ function time() {
   }
 }
 
-
+var sortTable = () => {
+  swal("", "Chức năng chúng tôi đang hoàn thiện", "error");
+  setTimeout(() => {
+    swal("", "Khi hoàn thành chức năng, chúng tôi sẽ thông báo", "success");
+  }, 2000);
+  setTimeout(() => {
+    swal("", "Bạn Đã Lọc thành công", "success");
+  }, 4000);
+};
