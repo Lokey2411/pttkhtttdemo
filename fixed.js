@@ -81,7 +81,7 @@ function onSeachButtonClick(index) {
   };
 }
 function onSearchClick() {
-  document.getElementById("myList").classList.toggle("hide");
+  //document.getElementById("myList").classList.toggle("hide");
 }
 function myFunction(index) {
   var input, filter, table, tr, td, i, txtValue;
